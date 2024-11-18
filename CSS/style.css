@@ -180,7 +180,7 @@ span {
 }
 
 .about-content h2 {
-  text-align: left;
+  text-align: center;
   line-height: 1.2;
 }
 
@@ -192,6 +192,7 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  text-align: justify;
 }
 
 /*============================== design page education ==============================*/
@@ -360,20 +361,26 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-  width: 80%;
+  width: 50%;
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-  width: 70%;
+  width: 80%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+  width: 40%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  width: 90%;
+  width: 40%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-  width: 80%;
+  width: 60%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
   width: 70%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+  width: 60%;
 }
 
 /* .skills-content h2 {
@@ -392,7 +399,7 @@ span {
 
 /*============================== design page services ==============================*/
 
-.services h2 {
+/* .services h2 {
   margin-bottom: 6rem;
 }
 
@@ -432,13 +439,13 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
-}
+} */
 
 /*============================== design page portfolio ==============================*/
 
-.portfolio {
+/* .portfolio {
   background: var(--second-bg-color);
-}
+} */
 
 .portfolio h2 {
   margin-bottom: 4rem;
@@ -460,7 +467,7 @@ span {
 }
 
 .portfolio-box img {
-  width: 100%;
+  width: 200%;
   transition: 0.5s ease;
 }
 
@@ -490,7 +497,7 @@ span {
 }
 
 .portfolio-layer h4 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .portfolio-layer p {
@@ -513,6 +520,21 @@ span {
   color: var(--second-bg-color);
 }
 
+/*============================== design page Certificates ==============================*/
+
+.certificates {
+  background: var(--second-bg-color);
+}
+
+.certificates-content a {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition: 0.3s;
+}
+
+/*============================== design page contact ==============================*/
 .contact h2 {
   margin-bottom: 3rem;
 }
