@@ -467,7 +467,7 @@ span {
 }
 
 .portfolio-box img {
-  width: 200%;
+  width: 100%;
   transition: 0.5s ease;
 }
 
@@ -527,7 +527,7 @@ span {
 }
 
 .certificates-content a {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--text-color);
   margin-left: 4rem;
