@@ -371,7 +371,7 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  width: 60%;
+  width: 80%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
   width: 60%;
@@ -381,6 +381,13 @@ span {
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
   width: 60%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+  width: 70%;
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
+  width: 70%;
 }
 
 /* .skills-content h2 {
@@ -532,6 +539,11 @@ span {
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.3s;
+}
+
+.certificates-content a:hover,
+.certificates-content a.active {
+  color: var(--main-color);
 }
 
 .certificates h2 {
